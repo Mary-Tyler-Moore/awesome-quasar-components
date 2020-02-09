@@ -1,28 +1,20 @@
 <template>
-  <q-layout view="lHh Lpr lFf">
-    <q-header elevated>
-      <q-toolbar>
-        <q-btn
-          flat
-          dense
-          round
-          @click="leftDrawerOpen = !leftDrawerOpen"
-          icon="menu"
-          aria-label="Menu"
-        />
+  <q-layout view="hHh lpR ffr">
+    <q-header bordered>
+      <q-toolbar class="bg-primary">
+        <q-btn dense flat round icon="menu" @click="leftDrawerOpen = !leftDrawerOpen" />
 
         <q-toolbar-title>
-          Quasar App
+          Awesome Quasar Components
         </q-toolbar-title>
-
-        <div>Quasar v{{ $q.version }}</div>
       </q-toolbar>
     </q-header>
 
     <q-drawer
       v-model="leftDrawerOpen"
-      show-if-above
       bordered
+      :breakpoint="767"
+      :width="250"
       content-class="bg-grey-1"
     >
       <q-list>
