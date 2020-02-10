@@ -14,7 +14,7 @@
       <q-carousel-slide :name="1" class="column no-wrap">
         <div class="row fit justify-start items-center q-gutter-xs q-col-gutter no-wrap">
           <q-img
-            onclick="location.href='/test';"
+            onclick="location.href='/stepper';"
             src="https://cdn.quasar.dev/img/parallax2.jpg"
             style="width: 100%;height:100%;cursor:pointer;"
           >
@@ -40,7 +40,7 @@
           <q-img class="col-3 full-height" src="https://cdn.quasar.dev/img/cat.jpg" />
           <q-img class="col-3 full-height" src="https://cdn.quasar.dev/img/linux-avatar.png" />
         </div>
-      </q-carousel-slide>git commit -m "Vue router mode changed to history mode, background color setted into dark, home page multi-carousel added and test.vue created"
+      </q-carousel-slide>
     </q-carousel>
   </div>
 </template>
