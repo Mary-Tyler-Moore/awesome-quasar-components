@@ -14,8 +14,8 @@ const routes = [
       },
       {
         path: '/stepper',
-        component: () => import('../components/stepper/stepper.vue')
-      },
+        component: () => import('../components/stepper/Stepper.vue')
+      }
     ]
   }
 ]

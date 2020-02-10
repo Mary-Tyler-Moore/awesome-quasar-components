@@ -33,6 +33,7 @@
 
 <script>
   export default {
+	name: "stepper",
     data() {
     return {
         activeStep: 0,
