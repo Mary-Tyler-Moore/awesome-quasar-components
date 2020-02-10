@@ -13,8 +13,8 @@ const routes = [
         component: () => import('pages/test.vue')
       },
       {
-        path: '/custom-button',
-        component: () => import('components/custom-button/index.vue')
+        path: '/stepper',
+        component: () => import('components/stepper/index.vue')
       },
     ]
   }

@@ -14,7 +14,7 @@
       <q-carousel-slide :name="1" class="column no-wrap">
         <div class="row fit justify-start items-center q-gutter-xs q-col-gutter no-wrap">
           <q-img
-            onclick="location.href='/custom-button';"
+            onclick="location.href='/stepper';"
             src="https://cdn.quasar.dev/img/parallax2.jpg"
             style="width: 100%;height:100%;cursor:pointer;"
           >

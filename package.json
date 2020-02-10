@@ -2,7 +2,7 @@
   "name": "quasar-awesome-components",
   "version": "0.0.1",
   "description": "A collection of useful Quasar Framework components co-authored by VincentLucifer and Mary-Tyler-Moore",
-  "productName": "Quasar App",
+  "productName": "Awesome Quasar Components",
   "cordovaId": "org.cordova.quasar.app",
   "capacitorId": "",
   "author": "Mary-Tyler-Moore, VincentLucifer",
