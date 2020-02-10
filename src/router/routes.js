@@ -9,13 +9,13 @@ const routes = [
         component: () => import('pages/Index.vue')
       },
       {
-        path: '/stepper',
-        component: () => import('../components/stepper.vue')
-      },
-      {
         path: '/test',
         component: () => import('pages/test.vue')
       },
+      {
+        path: '/stepper',
+        component: () => import('../components/stepper.vue')
+      }
     ]
   }
 ]

@@ -52,16 +52,19 @@
 </template>
 
 <script>
+import { openURL } from "quasar";
 export default {
+  name: "homepage",
   data() {
     return {
-      slide: 1
+      slide: 1,
+      autoplay: true
     };
   },
   methods: {
     goStepper() {
-      this.$router.push('stepper');
-    },
+      this.$router.push({path: '/stepper'})
+    }
   },
 };
 </script>
