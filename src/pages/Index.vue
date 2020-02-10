@@ -14,14 +14,14 @@
       <q-carousel-slide :name="1" class="column no-wrap">
         <div class="row fit justify-start items-center q-gutter-xs q-col-gutter no-wrap">
           <q-img
-            onclick="location.href='/stepper';"
+            @click="goStepper"
             src="https://cdn.quasar.dev/img/parallax2.jpg"
             style="width: 100%;height:100%;cursor:pointer;"
           >
             <div class="absolute-bottom text-subtitle1 text-center">Awesome button with an icon</div>
           </q-img>
           <q-img
-            onclick="location.href='/stepper';"
+            @click="goStepper"
             src="https://cdn.quasar.dev/img/parallax2.jpg"
             style="width: 100%;height:100%;cursor:pointer;"
           >
@@ -57,6 +57,11 @@ export default {
     return {
       slide: 1
     };
-  }
+  },
+  methods: {
+    goStepper() {
+      this.$router.push('stepper');
+    },
+  },
 };
 </script>
