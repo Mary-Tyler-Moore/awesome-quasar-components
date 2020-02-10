@@ -1,7 +1,7 @@
 <template>
   <q-layout view="hHh lpR ffr" class="bg-dark">
     <q-header bordered>
-      <q-toolbar class="bg-primary">
+      <q-toolbar class="bg-primary-gradient">
         <q-btn dense flat round icon="menu" @click="leftDrawerOpen = !leftDrawerOpen" />
 
         <q-toolbar-title>
@@ -11,6 +11,7 @@
     </q-header>
 
     <q-drawer
+      overlay
       v-model="leftDrawerOpen"
       bordered
       :breakpoint="767"
@@ -49,12 +50,12 @@ export default {
       essentialLinks: [
         {
           title: 'Docs',
-          caption: 'quasar.dev',
+          caption: 'Github repository address',
           icon: 'school',
-          link: 'https://quasar.dev'
+          link: 'https://github.com/Mary-Tyler-Moore/awesome-quasar-components'
         },
         {
-          title: 'Github',
+          title: 'Github (Quasar)',
           caption: 'github.com/quasarframework',
           icon: 'code',
           link: 'https://github.com/quasarframework'

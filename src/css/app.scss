@@ -1,1 +1,27 @@
-// app global css in SCSS form
+/* All tr typography elements with extra padding and margin are
+not able to get more space on the project if you want to add some
+padding or margin just use something like q-pr-md or q-mx-md & bla-bla */
+h1,h2,h3,h4,h5,h6,p {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+// This style is for the bottom color of the navbar
+.q-header--bordered {
+    border-bottom: 1px solid rgb(19, 8, 140);
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(19, 8, 140);
+}
+
+// Just primary gradient of the project
+.bg-primary-gradient {
+    background-color: #130f40;
+    background-image: linear-gradient(315deg, #0a0641 0%, #04011f 74%);
+}
+.text-primary-gradient {
+    background-color: #130f40;
+    background-image: linear-gradient(315deg, #0a0641 0%, #04011f 74%);
+}
