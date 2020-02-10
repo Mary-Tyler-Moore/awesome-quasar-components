@@ -12,6 +12,10 @@ const routes = [
         path: '/test',
         component: () => import('pages/test.vue')
       },
+      {
+        path: '/stepper',
+        component: () => import('components/stepper/index.vue')
+      },
     ]
   }
 ]
