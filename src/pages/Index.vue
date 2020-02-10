@@ -20,7 +20,13 @@
           >
             <div class="absolute-bottom text-subtitle1 text-center">Awesome button with an icon</div>
           </q-img>
-          <q-img class="col-3 full-height" src="https://cdn.quasar.dev/img/parallax1.jpg" />
+          <q-img
+            onclick="location.href='/stepper';"
+            src="https://cdn.quasar.dev/img/parallax2.jpg"
+            style="width: 100%;height:100%;cursor:pointer;"
+          >
+            <div class="absolute-bottom text-subtitle1 text-center">Awesome button with an icon</div>
+          </q-img>
           <q-img class="col-3 full-height" src="https://cdn.quasar.dev/img/mountains.jpg" />
           <q-img class="col-3 full-height" src="https://cdn.quasar.dev/img/parallax1.jpg" />
         </div>
